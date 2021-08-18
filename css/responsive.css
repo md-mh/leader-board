@@ -1,0 +1,32 @@
+@media only screen and (max-width: 991px){
+.menu, .latest-course, main{
+    margin: 36px 0 21px;;
+}
+.logo{
+    margin-left: 0;
+}
+.menu ol {
+    margin-right: 0;
+}
+.menu li{
+    margin: 0 3px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+    
+.blog {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 10px 20px 0;
+} 
+.courses{
+    display: block;
+}
+
+}
